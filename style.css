@@ -1,6 +1,6 @@
 body {
     font-family: "Arial", sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,6 +13,9 @@ header {
     text-align: center;
 }
 
+nav{
+    margin: 20px 0;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -27,12 +30,104 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 15px;
+    background-color: #4cafa3;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 nav ul li a:hover {
     text-decoration: underline;
+    background-color: #3b8c7b;
 }
+
+.Education{
+    color: #0761ad;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.divider {
+    border: none;
+    height: 4px;
+    background-color: #4cafa3;
+    margin: 20px 0;
+}
+
+.Experience{
+    color: #0761ad;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.president-student-administrative-council{
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.president-student-administrative-council-description{
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.communications-executive{
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.communications-executive-description{
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.Projects{
+    color: #0761ad;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.totem-pole {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.totem-pole-description{
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.soccer-game-simulator {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.soccer-game-simulator-description{
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    font-weight: normal;
+}
+
 footer {
-    background-color: #333;
+    background-color: #4cafa3;
     color: white;
     text-align: center;
     padding: 10px 0;
