@@ -45,7 +45,14 @@ nav ul li a:hover {
     font-size: large;
     font-weight: bold;
     text-decoration: underline;
+}
 
+.education-description {
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    font-weight: normal;
 }
 
 .divider {
@@ -81,6 +88,19 @@ nav ul li a:hover {
 }
 
 .communications-executive-description{
+    padding-top: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.captain{
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.captain-description{
     padding-top: 0;
     padding-right: 300px;
     padding-left: 300px;
